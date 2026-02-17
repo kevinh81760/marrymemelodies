@@ -1,0 +1,452 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "QomVj",
+      "x": 900,
+      "y": 1,
+      "name": "Singing Service - Home",
+      "width": 1440,
+      "fill": "#f1ebe1",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Ct2LE",
+          "name": "Top Corner Borders",
+          "width": "fill_container",
+          "height": 0,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "m9hoC",
+              "x": 40,
+              "y": 20,
+              "name": "tlV",
+              "fill": "#8A8A7A",
+              "width": 1,
+              "height": 60
+            },
+            {
+              "type": "rectangle",
+              "id": "piJ7m",
+              "x": 40,
+              "y": 20,
+              "name": "tlH",
+              "fill": "#8A8A7A",
+              "width": 60,
+              "height": 1
+            },
+            {
+              "type": "rectangle",
+              "id": "Sc5vr",
+              "x": 1399,
+              "y": 20,
+              "name": "trV",
+              "fill": "#8A8A7A",
+              "width": 1,
+              "height": 60
+            },
+            {
+              "type": "rectangle",
+              "id": "kmTwt",
+              "x": 1340,
+              "y": 20,
+              "name": "trH",
+              "fill": "#8A8A7A",
+              "width": 60,
+              "height": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WWuEc",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 60,
+          "fill": "#f1ebe1",
+          "padding": [
+            0,
+            120
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "usdeJ",
+              "name": "navLeft",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pYSTl",
+                  "name": "about",
+                  "fill": "#6B6B6B",
+                  "content": "ABOUT",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "rDwSo",
+                  "name": "services",
+                  "fill": "#6B6B6B",
+                  "content": "FAQ",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "yD1Js",
+              "name": "logo",
+              "fill": "#2A2A2A",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000040",
+                "offset": {
+                  "x": 0,
+                  "y": 4
+                },
+                "blur": 4
+              },
+              "content": "MARRY ME MELODIES",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 22,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "rHXiH",
+              "name": "navRight",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qAeeW",
+                  "name": "contact",
+                  "fill": "#6B6B6B",
+                  "content": "CONTACT",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Kzn5J",
+          "name": "Text CTA Section",
+          "width": "fill_container",
+          "height": 568,
+          "fill": "#f1ebe1",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            130,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "xT0ml",
+              "name": "tagline",
+              "fill": "#9B9B9B",
+              "content": "California Wedding Vocalists",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "X2vvV",
+              "name": "headline",
+              "fill": "#2A2A2A",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Singing Your\nLove Story",
+              "lineHeight": 1.15,
+              "textAlign": "center",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 52,
+              "fontWeight": "normal",
+              "letterSpacing": 3
+            },
+            {
+              "type": "text",
+              "id": "DNpAp",
+              "name": "subtext",
+              "fill": "#9B9B9B",
+              "content": "Hopeless Romantic Sisters",
+              "fontFamily": "Cormorant Garamond",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "P4mJJ",
+          "name": "About Jenny",
+          "width": "fill_container",
+          "height": 775,
+          "fill": "#c0cfb2",
+          "gap": 80,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "zle7L",
+              "name": "Jenny Photo",
+              "metadata": {
+                "type": "unsplash",
+                "username": "dynamicwang",
+                "link": "https://unsplash.com/@dynamicwang",
+                "author": "Dynamic Wang"
+              },
+              "clip": true,
+              "width": 380,
+              "height": 500,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1687298703924-0d11be697d8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzMjMzMzR8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "ws4Tb",
+              "name": "Jenny Text",
+              "width": "fill_container",
+              "cornerRadius": 15,
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XFbCk",
+                  "name": "jennyHeading",
+                  "fill": "#1A1A1A",
+                  "content": "Meet Jenny Ha",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 52,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "YqxQu",
+                  "name": "jennyDesc",
+                  "fill": "#2A2A2A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "With a voice that blends warmth and elegance, Jenny Ha has been captivating audiences at weddings and private events for over a decade. Her soulful performances bring a deeply personal touch to every celebration, creating unforgettable moments for couples and their guests.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "2wWgo",
+                  "name": "jennyBtn",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 40,
+                  "gap": 10,
+                  "padding": [
+                    18,
+                    40
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ot704",
+                      "name": "jennyBtnText",
+                      "fill": "#FFFFFF",
+                      "content": "More about Jenny  →",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3uxBc",
+          "name": "About Emily",
+          "width": "fill_container",
+          "height": 760,
+          "fill": "#f1ebe1",
+          "gap": 80,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "af3It",
+              "name": "Emily Text",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "9jiy2",
+                  "name": "emilyHeading",
+                  "fill": "#1A1A1A",
+                  "content": "Meet Emily Ha",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Cormorant Garamond",
+                  "fontSize": 52,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "MuNTL",
+                  "name": "emilyDesc",
+                  "fill": "#2A2A2A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Emily Ha brings a vibrant energy and powerhouse vocals to every stage she graces. From intimate ceremonies to grand receptions, her versatile range and magnetic presence ensure that every note resonates with emotion, making your special day truly extraordinary.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "ZSJfK",
+                  "name": "emilyBtn",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 40,
+                  "gap": 10,
+                  "padding": [
+                    18,
+                    40
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "c8bGS",
+                      "name": "emilyBtnText",
+                      "fill": "#FFFFFF",
+                      "content": "More about Emily  →",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZCdeN",
+              "name": "Emily Photo",
+              "metadata": {
+                "type": "unsplash",
+                "username": "matt909",
+                "link": "https://unsplash.com/@matt909",
+                "author": "Alex Shaw"
+              },
+              "clip": true,
+              "width": 380,
+              "height": 500,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1602421574408-024a5513e169?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzMjMzNTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rdRFc",
+          "name": "Bottom Corner Borders",
+          "width": "fill_container",
+          "height": 0,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "YZdy1",
+              "x": 40,
+              "y": -80,
+              "name": "blV",
+              "fill": "#8A8A7A",
+              "width": 1,
+              "height": 60
+            },
+            {
+              "type": "rectangle",
+              "id": "EFfDC",
+              "x": 40,
+              "y": -20,
+              "name": "blH",
+              "fill": "#8A8A7A",
+              "width": 60,
+              "height": 1
+            },
+            {
+              "type": "rectangle",
+              "id": "uYTD7",
+              "x": 1399,
+              "y": -80,
+              "name": "brV",
+              "fill": "#8A8A7A",
+              "width": 1,
+              "height": 60
+            },
+            {
+              "type": "rectangle",
+              "id": "tj0Xg",
+              "x": 1340,
+              "y": -20,
+              "name": "brH",
+              "fill": "#8A8A7A",
+              "width": 60,
+              "height": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

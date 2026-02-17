@@ -1,11 +1,19 @@
-export default function Home() {
+import {
+  HomeSection,
+  AboutJenny,
+  AboutEmily,
+  FAQSection,
+  ContactSection,
+} from "@/components";
+
+export default function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-center px-6 py-16">
-        <h1 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50">
-          Marry Me Melodies
-        </h1>
-      </main>
-    </div>
+    <main className="flex flex-1 flex-col bg-[var(--color-beige)]">
+      <HomeSection />
+      <AboutJenny />
+      <AboutEmily />
+      <FAQSection />
+      <ContactSection />
+    </main>
   );
 }
