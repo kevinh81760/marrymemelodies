@@ -1,6 +1,12 @@
+"use client";
+
+import { useScrollFadeOut } from "@/components/animations";
+
 const cornerFrame = "border-[var(--color-border-accent)]";
 
 export function HomeSection() {
+  const scrollCueOpacity = useScrollFadeOut(180);
+
   return (
     <section
       id="home"
@@ -38,13 +44,14 @@ export function HomeSection() {
         Hopeless Romantic Sisters
       </p>
 
-      {/* Bottom corners aligned to Swiss grid (48px = left-12/right-12, matches navbar) */}
-      <div
-        className="absolute bottom-0 left-0 right-0 h-12 max-w-[1600px] mx-auto px-12 pointer-events-none"
+      {/* Subtle scroll cue — fades out on scroll */}
+      <p
+        className="absolute bottom-12 left-1/2 -translate-x-1/2 font-heading text-[18px] tracking-[3px] text-[var(--color-gray)] transition-opacity duration-300"
+        style={{ opacity: scrollCueOpacity * 0.55 }}
         aria-hidden
       >
-
-      </div>
+        scroll to begin
+      </p>
     </section>
   );
 }

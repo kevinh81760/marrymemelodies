@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function AboutEmily() {
   return (
-    <section className="flex items-center gap-[80px] bg-[var(--color-beige)] px-[120px] py-[80px] min-h-[760px]">
+    <section className="flex items-center gap-[80px] bg-[var(--color-beige)] px-[120px] py-[80px] min-h-[960px]">
       <div className="flex flex-1 flex-col gap-8">
         <h2 className="font-heading text-[52px] leading-[1.1] text-[var(--color-darker)]">
           Meet Emily Ha

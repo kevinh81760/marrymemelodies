@@ -5,11 +5,11 @@ export function AboutJenny() {
   return (
     <section
       id="about"
-      className="flex items-center gap-[80px] bg-[var(--color-sage)] px-[120px] py-[80px] min-h-[775px]"
+      className="flex items-center gap-[80px] bg-[var(--color-sage)] px-[120px] py-[80px] min-h-[960px]"
     >
       <div className="relative w-[380px] h-[500px] shrink-0 overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1687298703924-0d11be697d8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzEzMjMzMzR8&ixlib=rb-4.1.0&q=80&w=1080"
+          src="/jheadshot.png"
           alt="Jenny Ha"
           fill
           className="object-cover"

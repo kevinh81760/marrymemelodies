@@ -2,8 +2,9 @@ import {
   HomeSection,
   AboutJenny,
   AboutEmily,
-  FAQSection,
-  ContactSection,
+  MeetTheVoices,
+  FAQ,
+  Contact,
 } from "@/components";
 
 export default function HomePage() {
@@ -12,8 +13,9 @@ export default function HomePage() {
       <HomeSection />
       <AboutJenny />
       <AboutEmily />
-      <FAQSection />
-      <ContactSection />
+      <MeetTheVoices />
+      <FAQ />
+      <Contact />
     </main>
   );
 }

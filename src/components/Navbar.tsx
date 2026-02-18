@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 z-10 bg-[var(--color-beige)]">
-      <nav className="grid grid-cols-3 items-center px-12 h-[60px] w-full max-w-[1600px] mx-auto">
+    <header className="sticky top-0 z-10 bg-[var(--color-beige)] px-8 pt-5 pb-5">
+      <nav className="grid grid-cols-3 items-center w-full max-w-[1600px] mx-auto">
         <ul className="flex items-center justify-start gap-8 font-body text-[11px] tracking-[2px] text-[var(--color-nav)]">
           <li>
             <Link href="#about" className="hover:text-[var(--color-dark)] transition-colors">

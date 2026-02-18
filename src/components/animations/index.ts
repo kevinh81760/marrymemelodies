@@ -1,0 +1,1 @@
+export { useScrollFadeOut } from "./useScrollFadeOut";
